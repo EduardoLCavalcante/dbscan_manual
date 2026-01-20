@@ -2,14 +2,7 @@ import numpy as np
 from collections import deque
 
 class DBSCANManual:
-    """
-    Implementação manual do algoritmo DBSCAN.
-    Classifica explicitamente os pontos em:
-    - core (núcleo)
-    - border (borda)
-    - noise (ruído)
-    """
-
+ 
     def __init__(self, eps=0.5, min_samples=5):
         self.eps = eps
         self.min_samples = min_samples
